@@ -2,8 +2,6 @@ import React from 'react';
 import {StyleSheet, View,Text,TouchableOpacity} from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 
-
-
 export default function TodoItem({todo,onDelete}) {
 return (
 
@@ -36,11 +34,5 @@ const styles = StyleSheet.create({
     text: {
         textAlign: 'center',
         color:'#fff'
-    },
-    title:{
-        textAlign:'center',
-        color:'#fff',
-        fontSize:20,
-        fontWeight:'bold'
     }
 });
